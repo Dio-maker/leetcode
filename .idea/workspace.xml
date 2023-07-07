@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="61a31886-17e0-4226-86ce-f1edafb8ca4b" name="变更" comment="leetcode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercise/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,27 +36,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/gz/20230309新一期优化/website-be-user-dev_20210630.00",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="应用程序.ThreeSum">
-    <configuration name="IntToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.IntToRoman" />
+  <component name="RunManager" selected="应用程序.FourSum">
+    <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.FourSum" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.IsPalindrome" />
+    <configuration name="LetterCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.LetterCombinations" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -95,19 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanToInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.RomanToInt" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise.ThreeSum" />
       <module name="leetcode" />
@@ -121,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise.ThreeSumClosest" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.FourSum" />
+        <item itemvalue="应用程序.LetterCombinations" />
+        <item itemvalue="应用程序.ThreeSumClosest" />
         <item itemvalue="应用程序.ThreeSum" />
         <item itemvalue="应用程序.LongestCommonPrefix" />
-        <item itemvalue="应用程序.RomanToInt" />
-        <item itemvalue="应用程序.IntToRoman" />
-        <item itemvalue="应用程序.IsPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +169,20 @@
       <workItem from="1683163554325" duration="2199000" />
       <workItem from="1683365933812" duration="1519000" />
       <workItem from="1683508001600" duration="1935000" />
-      <workItem from="1683526048664" duration="9861000" />
+      <workItem from="1683526048664" duration="13637000" />
+      <workItem from="1683595483003" duration="7371000" />
+      <workItem from="1683616892397" duration="1190000" />
+      <workItem from="1683681550099" duration="14157000" />
+      <workItem from="1683870311868" duration="1304000" />
+      <workItem from="1684112935598" duration="297000" />
+      <workItem from="1684113250097" duration="1064000" />
+      <workItem from="1684114627119" duration="19000" />
+      <workItem from="1684114655599" duration="443000" />
+      <workItem from="1684115116480" duration="19543000" />
+      <workItem from="1684220738416" duration="7116000" />
+      <workItem from="1684285384671" duration="4368000" />
+      <workItem from="1688722533560" duration="337000" />
+      <workItem from="1688722879788" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="leetcode">
       <created>1682415293289</created>
@@ -183,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683366361191</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="leetcode">
+      <created>1683536460667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683536460667</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +269,31 @@
           <line>27</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercise/ThreeSum.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercise/ThreeSumClosest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercise/FourSum.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exercise/FourSum.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
